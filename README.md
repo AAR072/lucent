@@ -1,13 +1,24 @@
 # Lucent
 
-An independent, MIT-licensed camera for iPhone and iPad, built with SwiftUI,
-AVFoundation, Core Image, Photos and Core Motion. iOS 18 or later.
+A clean-room reimplementation of **[Halide Mark III](https://www.lux.camera/halide-mark-iii/)**
+(observed version 3.2.1) for iPhone and iPad — an independent, MIT-licensed
+camera built with SwiftUI, AVFoundation, Core Image, Photos and Core Motion.
+iOS 18 or later.
 
-Lucent aims to provide a free alternative to the publicly documented workflows
-of professional manual camera apps. **Version 0.1 is not a 1:1 Halide clone.**
-See [feature parity](docs/FEATURE_PARITY.md) for implemented features and gaps.
-Original interface, color recipes and code. No accounts, payments, analytics,
-third-party SDKs or network requests in the application.
+## Clean-room provenance
+
+Lucent reimplements Halide's publicly documented workflows from black-box
+observation of the installed app and Lux Optics' public descriptions. No
+Halide executable was disassembled or decompiled, and no Halide code, shader,
+LUT, font, artwork or other binary resource was incorporated. The interface,
+color recipes and all code are original. See the
+[provenance record](docs/INDEPENDENT_IMPLEMENTATION.md) for exactly what was
+observed and how requirements were derived.
+
+**Version 0.1 is not a 1:1 Halide clone.** See
+[feature parity](docs/FEATURE_PARITY.md) for implemented features and gaps.
+No accounts, payments, analytics, third-party SDKs or network requests in
+the application.
 
 ![Generated simulator scene in Lucent](docs/screenshots/camera.png)
 
@@ -94,6 +105,7 @@ and portrait controls were checked on an iPhone 17 Pro. Supplied Bayer RAW and
 ProRAW negatives were decoded in imaging tests. The current release remains a
 development build, not a verified equivalent of a commercial camera.
 
-Lucent is not affiliated with Lux Optics or Halide. Halide and Process Zero are
-referenced only to identify comparison features; their assets and proprietary
+Lucent is not affiliated with or endorsed by Lux Optics. "Halide" and
+"Halide Mark III" are referenced only to identify the app whose behavior this
+clean-room reimplementation studies; their assets and proprietary
 image-processing recipes are not included.

@@ -1,5 +1,10 @@
 # Independent implementation record
 
+Lucent is a clean-room reimplementation of Halide Mark III (observed version
+3.2.1): its behavior was derived from black-box observation and public
+descriptions only. This record details the inputs, the separation kept from
+the original, and the limits of that claim.
+
 ## Inputs and separation
 
 The supplied archive identified Halide 3.2.1. Its directory listing, selected
