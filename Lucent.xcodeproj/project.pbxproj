@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E58B8DF4AE1FBCEA87BA85E /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941788B433164831F8E66338 /* PhotoGalleryView.swift */; };
+		16DAC4CCBF7BFE4A43AED9B2 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE66B3342B3654DCBC23BD5D /* LibraryView.swift */; };
+		1998B803B198C974C4ABBE8F /* CameraSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77272761DAB803E69E189C51 /* CameraSettingsView.swift */; };
+		237D69E2A0DCFF169706E00E /* CompositionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8A3232F899CA21CE6795B /* CompositionMenu.swift */; };
+		2A71CF4AC5B12FA6029D8392 /* CaptureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91827A9EF2AEBE3CACDDDE5 /* CaptureStore.swift */; };
+		423A762E90C51297BB40A7E3 /* RAWFixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A5EE8EDF925D72989CEAC4 /* RAWFixtureTests.swift */; };
+		49B7F3FC25B57B1C4C21A63E /* PreviewAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E607BC05620E710CBF387 /* PreviewAnalysis.swift */; };
+		4BCE3CFB96C5190E38E77AEA /* CaptureLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1E5AE46309D9D5E527F79 /* CaptureLocationService.swift */; };
+		6B284B7AEA3400CD9FE2EA92 /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96990D01810554E8B80D68D /* ImagePipeline.swift */; };
+		6D5117F639BAF817A3171DFC /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEBDF46CCD4A781508FC38 /* CameraModel.swift */; };
+		704F82B6EDE1DA5DB0470018 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949CEC28203A12E3E7DA64E2 /* CameraPreview.swift */; };
+		7960E25998375CCE6135D551 /* DemoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B29F4903451653C6F7594 /* DemoScene.swift */; };
+		80E51F6E0B04FC3DC9D0652E /* LucentCore in Frameworks */ = {isa = PBXBuildFile; productRef = C370008760BF50D87CAE0BA1 /* LucentCore */; };
+		909A7F95E13CE5566E240654 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538118CC0E6CA2977450D8D /* CameraView.swift */; };
+		B38A53411ECB92293F26927C /* ManualControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186E84AD934AAA15280012 /* ManualControls.swift */; };
+		B577EECCC08FA4684748D00E /* LucentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D7346F401767AC2129F3C /* LucentApp.swift */; };
+		BE496239AF39B5C8C8AB0FDA /* CameraFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91F2CD82896F1FA2DD903D /* CameraFlowTests.swift */; };
+		BF6907E82958F0782E686064 /* ImagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED280662AAAF38E63BD06E /* ImagingTests.swift */; };
+		BF9A83096E03C10959645B33 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958881A646A93F25EE9BB0E0 /* CameraService.swift */; };
+		D1E0B8B7D6ABCD5282D1B1AB /* Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9D8CA6119124F6173EC4D /* Overlays.swift */; };
+		D274731704C1C17173CE745C /* ZoomablePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD11B29312DE331F41C33C4 /* ZoomablePhoto.swift */; };
+		E26B7A95B97EDE384E457C71 /* PhotoLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1FEF73C99C636023C30EC /* PhotoLabView.swift */; };
+		E81F51DAB450949A3776213C /* CameraPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81FD77E235F2F08784DE16 /* CameraPreviewTests.swift */; };
+		FA01F962C6E1A433A2195596 /* LucentCore in Frameworks */ = {isa = PBXBuildFile; productRef = 99D98469C5875F2CDF68A681 /* LucentCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3405BF1BDAF9958B88F14E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E0DF3AB31AD7491ACC3BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB79575CC9B4F6E10C5FAD5F;
+			remoteInfo = Lucent;
+		};
+		A4547F5DD0FC129932D061E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E0DF3AB31AD7491ACC3BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB79575CC9B4F6E10C5FAD5F;
+			remoteInfo = Lucent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCEBDF46CCD4A781508FC38 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		1D81FD77E235F2F08784DE16 /* CameraPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewTests.swift; sourceTree = "<group>"; };
+		27A5EE8EDF925D72989CEAC4 /* RAWFixtureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWFixtureTests.swift; sourceTree = "<group>"; };
+		28640DD17B0E996ADB3219AF /* LucentUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LucentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA2615F9309E3B417D1AA26 /* Lucent.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lucent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B1FEF73C99C636023C30EC /* PhotoLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLabView.swift; sourceTree = "<group>"; };
+		40E8A3232F899CA21CE6795B /* CompositionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionMenu.swift; sourceTree = "<group>"; };
+		5538118CC0E6CA2977450D8D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5AD11B29312DE331F41C33C4 /* ZoomablePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomablePhoto.swift; sourceTree = "<group>"; };
+		5C68C97A96005D08CB628A8F /* halide 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "halide 2"; path = .; sourceTree = SOURCE_ROOT; };
+		62ED280662AAAF38E63BD06E /* ImagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagingTests.swift; sourceTree = "<group>"; };
+		77272761DAB803E69E189C51 /* CameraSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingsView.swift; sourceTree = "<group>"; };
+		7BB9D8CA6119124F6173EC4D /* Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlays.swift; sourceTree = "<group>"; };
+		8A91F2CD82896F1FA2DD903D /* CameraFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlowTests.swift; sourceTree = "<group>"; };
+		941788B433164831F8E66338 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
+		949CEC28203A12E3E7DA64E2 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		958881A646A93F25EE9BB0E0 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		B91827A9EF2AEBE3CACDDDE5 /* CaptureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureStore.swift; sourceTree = "<group>"; };
+		BC186E84AD934AAA15280012 /* ManualControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualControls.swift; sourceTree = "<group>"; };
+		C30B29F4903451653C6F7594 /* DemoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScene.swift; sourceTree = "<group>"; };
+		CD1E607BC05620E710CBF387 /* PreviewAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAnalysis.swift; sourceTree = "<group>"; };
+		E96990D01810554E8B80D68D /* ImagePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		EE66B3342B3654DCBC23BD5D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F6FBE7A581FB436BB2223239 /* LucentTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LucentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1E5AE46309D9D5E527F79 /* CaptureLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureLocationService.swift; sourceTree = "<group>"; };
+		FD4D7346F401767AC2129F3C /* LucentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucentApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531D246B19B73E0B9A241148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E51F6E0B04FC3DC9D0652E /* LucentCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897990182CE8EA674BCA3ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01F962C6E1A433A2195596 /* LucentCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F61DCB5466D005A37809FC /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEBDF46CCD4A781508FC38 /* CameraModel.swift */,
+				949CEC28203A12E3E7DA64E2 /* CameraPreview.swift */,
+				958881A646A93F25EE9BB0E0 /* CameraService.swift */,
+				F9F1E5AE46309D9D5E527F79 /* CaptureLocationService.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		2A9C84545C2F35CEA53AD1CA = {
+			isa = PBXGroup;
+			children = (
+				66267498D6F5210DF1351249 /* App */,
+				44BDAA2F6A565F9DDD1C9CD7 /* AppTests */,
+				696E54D0E5973D216C7BC921 /* Packages */,
+				BC630ADD6BD35B3ED31ED87F /* UITests */,
+				7ACB513364E1041EA4BC2321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44BDAA2F6A565F9DDD1C9CD7 /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D81FD77E235F2F08784DE16 /* CameraPreviewTests.swift */,
+				62ED280662AAAF38E63BD06E /* ImagingTests.swift */,
+				27A5EE8EDF925D72989CEAC4 /* RAWFixtureTests.swift */,
+			);
+			path = AppTests;
+			sourceTree = "<group>";
+		};
+		66267498D6F5210DF1351249 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD4D7346F401767AC2129F3C /* LucentApp.swift */,
+				22F61DCB5466D005A37809FC /* Camera */,
+				8ED64661C01819122A494676 /* Imaging */,
+				A0CC355B88F777A675C65326 /* Storage */,
+				E3E6D15FB19FABD91E2EE19C /* UI */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		696E54D0E5973D216C7BC921 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5C68C97A96005D08CB628A8F /* halide 2 */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		7ACB513364E1041EA4BC2321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2615F9309E3B417D1AA26 /* Lucent.app */,
+				F6FBE7A581FB436BB2223239 /* LucentTests.xctest */,
+				28640DD17B0E996ADB3219AF /* LucentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED64661C01819122A494676 /* Imaging */ = {
+			isa = PBXGroup;
+			children = (
+				C30B29F4903451653C6F7594 /* DemoScene.swift */,
+				E96990D01810554E8B80D68D /* ImagePipeline.swift */,
+				CD1E607BC05620E710CBF387 /* PreviewAnalysis.swift */,
+			);
+			path = Imaging;
+			sourceTree = "<group>";
+		};
+		A0CC355B88F777A675C65326 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B91827A9EF2AEBE3CACDDDE5 /* CaptureStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		BC630ADD6BD35B3ED31ED87F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A91F2CD82896F1FA2DD903D /* CameraFlowTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		E3E6D15FB19FABD91E2EE19C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				77272761DAB803E69E189C51 /* CameraSettingsView.swift */,
+				5538118CC0E6CA2977450D8D /* CameraView.swift */,
+				40E8A3232F899CA21CE6795B /* CompositionMenu.swift */,
+				EE66B3342B3654DCBC23BD5D /* LibraryView.swift */,
+				BC186E84AD934AAA15280012 /* ManualControls.swift */,
+				7BB9D8CA6119124F6173EC4D /* Overlays.swift */,
+				941788B433164831F8E66338 /* PhotoGalleryView.swift */,
+				38B1FEF73C99C636023C30EC /* PhotoLabView.swift */,
+				5AD11B29312DE331F41C33C4 /* ZoomablePhoto.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423F5838C41457C83BCF6B71 /* LucentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA214C46734221434FB81BEC /* Build configuration list for PBXNativeTarget "LucentUITests" */;
+			buildPhases = (
+				B78AF0E0C3B1D53ABC002567 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0AEF03D735163729E159F4 /* PBXTargetDependency */,
+			);
+			name = LucentUITests;
+			packageProductDependencies = (
+			);
+			productName = LucentUITests;
+			productReference = 28640DD17B0E996ADB3219AF /* LucentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5A803FA210284B91C3E6B7D5 /* LucentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E093BEA5CF3CB3D42DEC376 /* Build configuration list for PBXNativeTarget "LucentTests" */;
+			buildPhases = (
+				DAC22C12DBF7ED572E67948B /* Sources */,
+				897990182CE8EA674BCA3ACA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE03108E0CACFED3EFB60B5 /* PBXTargetDependency */,
+			);
+			name = LucentTests;
+			packageProductDependencies = (
+				99D98469C5875F2CDF68A681 /* LucentCore */,
+			);
+			productName = LucentTests;
+			productReference = F6FBE7A581FB436BB2223239 /* LucentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB79575CC9B4F6E10C5FAD5F /* Lucent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3600AF853D2DAC75387CBD30 /* Build configuration list for PBXNativeTarget "Lucent" */;
+			buildPhases = (
+				6DC5EAA7FE5A650F05978E52 /* Sources */,
+				531D246B19B73E0B9A241148 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lucent;
+			packageProductDependencies = (
+				C370008760BF50D87CAE0BA1 /* LucentCore */,
+			);
+			productName = Lucent;
+			productReference = 2BA2615F9309E3B417D1AA26 /* Lucent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E0DF3AB31AD7491ACC3BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					423F5838C41457C83BCF6B71 = {
+						DevelopmentTeam = "";
+						TestTargetID = AB79575CC9B4F6E10C5FAD5F;
+					};
+					5A803FA210284B91C3E6B7D5 = {
+						DevelopmentTeam = "";
+					};
+					AB79575CC9B4F6E10C5FAD5F = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 8FBBB0B78EF5EA9640521572 /* Build configuration list for PBXProject "Lucent" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2A9C84545C2F35CEA53AD1CA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0B0DCA66AF7797BA4695E931 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7ACB513364E1041EA4BC2321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB79575CC9B4F6E10C5FAD5F /* Lucent */,
+				5A803FA210284B91C3E6B7D5 /* LucentTests */,
+				423F5838C41457C83BCF6B71 /* LucentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC5EAA7FE5A650F05978E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5117F639BAF817A3171DFC /* CameraModel.swift in Sources */,
+				704F82B6EDE1DA5DB0470018 /* CameraPreview.swift in Sources */,
+				BF9A83096E03C10959645B33 /* CameraService.swift in Sources */,
+				1998B803B198C974C4ABBE8F /* CameraSettingsView.swift in Sources */,
+				909A7F95E13CE5566E240654 /* CameraView.swift in Sources */,
+				4BCE3CFB96C5190E38E77AEA /* CaptureLocationService.swift in Sources */,
+				2A71CF4AC5B12FA6029D8392 /* CaptureStore.swift in Sources */,
+				237D69E2A0DCFF169706E00E /* CompositionMenu.swift in Sources */,
+				7960E25998375CCE6135D551 /* DemoScene.swift in Sources */,
+				6B284B7AEA3400CD9FE2EA92 /* ImagePipeline.swift in Sources */,
+				16DAC4CCBF7BFE4A43AED9B2 /* LibraryView.swift in Sources */,
+				B577EECCC08FA4684748D00E /* LucentApp.swift in Sources */,
+				B38A53411ECB92293F26927C /* ManualControls.swift in Sources */,
+				D1E0B8B7D6ABCD5282D1B1AB /* Overlays.swift in Sources */,
+				0E58B8DF4AE1FBCEA87BA85E /* PhotoGalleryView.swift in Sources */,
+				E26B7A95B97EDE384E457C71 /* PhotoLabView.swift in Sources */,
+				49B7F3FC25B57B1C4C21A63E /* PreviewAnalysis.swift in Sources */,
+				D274731704C1C17173CE745C /* ZoomablePhoto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AF0E0C3B1D53ABC002567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE496239AF39B5C8C8AB0FDA /* CameraFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC22C12DBF7ED572E67948B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81F51DAB450949A3776213C /* CameraPreviewTests.swift in Sources */,
+				BF6907E82958F0782E686064 /* ImagingTests.swift in Sources */,
+				423A762E90C51297BB40A7E3 /* RAWFixtureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C0AEF03D735163729E159F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB79575CC9B4F6E10C5FAD5F /* Lucent */;
+			targetProxy = 3405BF1BDAF9958B88F14E62 /* PBXContainerItemProxy */;
+		};
+		BDE03108E0CACFED3EFB60B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB79575CC9B4F6E10C5FAD5F /* Lucent */;
+			targetProxy = A4547F5DD0FC129932D061E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0511B79AC3AFCEF1B180DC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.LucentTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucent.app/Lucent";
+			};
+			name = Release;
+		};
+		622DA0D99B3E7C9384A5FA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lucent;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lucent uses the camera to take photographs.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Add a location to photographs when Location Tagging is enabled.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save photographs you choose to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.Lucent;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		828930DB74506C4E8CD21668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lucent;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lucent uses the camera to take photographs.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Add a location to photographs when Location Tagging is enabled.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save photographs you choose to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.Lucent;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00311C57C21CAB6981BF607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C616C043915634264E44579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.LucentTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucent.app/Lucent";
+			};
+			name = Debug;
+		};
+		E892E765F68CB552A20AD7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EAD3814C4FE6AF57E5338F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.LucentUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lucent;
+			};
+			name = Debug;
+		};
+		F5290AB49145CC778CED5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lucentcamera.LucentUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lucent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3600AF853D2DAC75387CBD30 /* Build configuration list for PBXNativeTarget "Lucent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622DA0D99B3E7C9384A5FA34 /* Debug */,
+				828930DB74506C4E8CD21668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E093BEA5CF3CB3D42DEC376 /* Build configuration list for PBXNativeTarget "LucentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616C043915634264E44579C /* Debug */,
+				0511B79AC3AFCEF1B180DC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FBBB0B78EF5EA9640521572 /* Build configuration list for PBXProject "Lucent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E892E765F68CB552A20AD7B6 /* Debug */,
+				A00311C57C21CAB6981BF607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA214C46734221434FB81BEC /* Build configuration list for PBXNativeTarget "LucentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD3814C4FE6AF57E5338F3F /* Debug */,
+				F5290AB49145CC778CED5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0B0DCA66AF7797BA4695E931 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99D98469C5875F2CDF68A681 /* LucentCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LucentCore;
+		};
+		C370008760BF50D87CAE0BA1 /* LucentCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LucentCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43E0DF3AB31AD7491ACC3BB0 /* Project object */;
+}

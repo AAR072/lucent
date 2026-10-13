@@ -1,0 +1,52 @@
+# Build artifacts
+.build/
+build/
+Build/
+DerivedData/
+out/
+*.dSYM
+
+# Xcode user state (shared schemes/settings in xcshareddata stay tracked)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.xcarchive
+*.xcresult
+*.ipa
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Camera captures & media fixtures (stage locally; never repository assets)
+*.dng
+*.DNG
+*.heic
+*.HEIC
+Captures/
+
+# Signing, keys & provisioning
+Signing/
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.cer
+*.certSigningRequest
+
+# Logs & scratch output
+*-log.txt
+*.log
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/

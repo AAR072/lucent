@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "preview.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "Lucent",
+    "version" : 1
+  }
+}
